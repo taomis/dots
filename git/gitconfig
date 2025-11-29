@@ -8,10 +8,10 @@
 	autocrlf = input
 
 [color]
-    ui = auto
+	ui = auto
 
 [init]
-    defaultBranch = main
+	defaultBranch = main
 
 [alias]
 	lg = log --oneline --graph --decorate --all

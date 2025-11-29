@@ -1,0 +1,55 @@
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 18
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
+bold = { family = "JetBrainsMono Nerd Font", style = "Bold" }
+italic = { family ="JetBrainsMono Nerd Font", style = "Italic" }
+
+[font.offset]
+x = 0
+y = 2
+
+[window]
+decorations = "Full"	# Full/ None
+dimensions = { columns = 96, lines = 24 }
+padding.x = 4
+padding.y = 2
+#opacity = 0.9
+
+[scrolling]
+history = 10000
+multiplier = 1
+
+[selection]
+save_to_clipboard = true
+
+## Catppuccin Macchiato 
+[colors.primary]
+background = '0x24273a'
+foreground = '0xcad3f5'
+
+[colors.cursor]
+text = '0x24273a'
+cursor = '0xf4dbd6'
+
+[colors.normal]
+black   = "0x1e2030"
+red     = "0xed8796"
+green   = "0xa6da95"
+yellow  = "0xeed49f"
+blue    = "0x8aadf4"
+magenta = "0xc6a0f6"
+cyan    = "0x91d7e3"
+white   = "0xb8c0e0"
+
+[colors.bright]
+black   = "0x363a4f"
+red     = "0xf0a4b3"
+green   = "0xb8e0ac"
+yellow  = "0xf5e0bb"
+blue    = "0xa5c9ff"
+magenta = "0xd6b4ff"
+cyan    = "0xa5dff9"
+white   = "0xcad3f5"

@@ -1,0 +1,17 @@
+[user]
+	name = <name>
+	email = <email address>
+
+[core]
+	editor = nvim
+	pager = less -FRX
+	autocrlf = input
+
+[color]
+    ui = auto
+
+[init]
+    defaultBranch = main
+
+[alias]
+	lg = log --oneline --graph --decorate --all
